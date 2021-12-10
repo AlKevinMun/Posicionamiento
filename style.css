@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  border: thin solid red;
+}
+
+#Main{
+  display: grid;
+  grid-template-areas: 'H H H H'
+                       'L C C R'
+                       'L C C R'
+                       'F F F F';
+}
+#Header{grid-area: H;}
+#Left-Menu{grid-area: L;}
+#Content{grid-area: C;}
+#Right-Menu{grid-area: R;}
+#Footer{grid-area: F;}
