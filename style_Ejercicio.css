@@ -20,7 +20,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-p{
+#noticia{
 color: #565656;
 }
 
@@ -49,4 +49,25 @@ img{
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+
+
+.item_2{
+  position: relative;
+  border-radius: 0.5em;
+  border: thin solid black;
+  background-color: #d2d2d2;
+  padding: 0.5em;
+  margin: 0;
+  color: white;
+  background-image: url("img/negro.jpg");
+}
+
+.item_2:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2{
+  margin
 }
