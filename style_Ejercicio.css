@@ -39,7 +39,7 @@ img{
   background-color: #4CAF50;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 5px #999;
+  box-shadow: 0 3px #999;
   margin-bottom: 1em;
 }
 
@@ -47,7 +47,7 @@ img{
 
 .button:active {
   background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+  box-shadow: 0 3px #666;
   transform: translateY(4px);
 }
 
@@ -64,10 +64,42 @@ img{
   background-image: url("img/negro.jpg");
 }
 
-.item_2:hover{
+.-item_2:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-h2{
-  margin
+.texto{
+  text-align: center;
+}
+.posicion{
+  position: absolute;
+  left: 5em;
+  bottom: 5em;
+}
+.button_2 {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+  margin-bottom: 1em;
+  position: absolute;
+  left: 0em;
+  bottom:15em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.button_2:hover {background-color: #3e8e41}
+
+.button_2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
 }
